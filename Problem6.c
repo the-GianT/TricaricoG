@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// calculates the sum of the squares of the first x natural numbers
 int sumOfSquares(int x)
 {
   int i = 1;
@@ -11,6 +12,7 @@ int sumOfSquares(int x)
   return retVal;
 }
 
+// calculates the square of the sum of the first x natural numbers
 int squareOfSum(int x)
 {
   int i = 1;
